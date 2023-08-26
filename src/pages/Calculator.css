@@ -1,0 +1,36 @@
+.calculator {
+    display: inline-block;
+    border: 2px solid #050505;
+    padding: 40px; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px; /* Increase the gap between buttons for better spacing */
+  }
+  
+  .button {
+    border: #050505;
+    border-radius: 5px;
+    padding: 20px; /* Increase button padding for larger buttons */
+    font-size: 1.5rem; /* Increase font size for button labels */
+    text-align: center;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .output {
+    margin-bottom: 20px; 
+    padding: 20px; 
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    font-size: 2rem; 
+  }
+  
